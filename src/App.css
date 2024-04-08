@@ -70,6 +70,18 @@
     transition: .2s;
 }
 
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    background-color: var(--Green);
+    padding: 0 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 90%;
+}
+
 @media screen and (max-width: 900px) {
 
     
